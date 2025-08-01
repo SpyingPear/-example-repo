@@ -1,0 +1,54 @@
+1.Data VS Information
+
+Data in blunt is just raw information think of text and numbers that haven't been processed yet, for example, "19, Cape_Town, 2025."
+
+on its own it has no meaning.
+
+However, information, on the other hand, is what you get after organizing and processing data in a way that makes sense. For example, the previous data would end up being "19 students enrolled in Cape Town during 2025." Now it actually makes sense. That is the key difference.
+
+2.What is metadata?
+Metadata, in summary, is data about data. For example, let's say you have taken a photo of a tree on your phone. The metadata for the photo would be what time the photo was taken, the location, the file size, and the camera used. It's not the content but the details that manage the content.
+
+3.What is a DBMS, and what are its advantages?
+DBMS is a Database Management System; it is software that lets you store, manage, and access data efficiently.
+
+Some useful things it can do are
+Keep your data organized.
+Handle security and backups.
+Allow multiple users to work with the data at the same time.
+
+4.Operational vs Analytical Databases
+Operational databases handle day-to-day tasks. 
+They’re used for things like keeping track of user logins or processing online orders.
+An example is a database for a food delivery app that does orders in real time.
+
+Analytical databases 
+Analytical databases are used to look at trends or patterns. They are great at using large amounts of data to help make decisions
+Example A Company's data warehouse that shows which products sell best during certain peroids of time.
+
+5.NoSQL databases — types and use cases
+NoSQL Databases are flexible and better suited for certain types of data like
+
+Document-based: Great for websites or apps where content varies
+
+Key-value: Super fast for things like caching or session storage.
+
+Column-based: Good for handling massive amounts of data across different machines.
+
+Graph-based: Ideal for relationship-heavy data like social networks
+
+6.Which DBMS doesn’t need server configuration?
+SQLite is the go-to here. It’s a lightweight, self-contained DBMS that stores everything in a single file.
+It is perfect for mobile apps or small desktop software it is easy to move or back up, and it doesn't need internet or server management.
+
+7. Explain ACID properties in the context of a DBMS.
+ACID is a set of rules that keep database transactions safe and reliable:
+
+Atomicity: Everything in a transaction happens completely or not at all.
+
+Consistency: The database starts and ends in a valid state.
+
+Isolation: One transaction doesn’t mess with another that’s happening at the same time.
+
+Durability: Once something’s been written to the database, it stays that way even if there’s a crash right after.
+ACID is why your money doesn’t disappear during an online bank transfer.
